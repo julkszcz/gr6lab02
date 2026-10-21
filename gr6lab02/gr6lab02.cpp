@@ -40,7 +40,7 @@ int main() {  // kod 02_01      //zad1.1 wyœwietli sie równie¿ 10
         printf(" %3.0f %6.1f \n", fahr, celsius);
     }
 
-    for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) // zad6
+    for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) // zad6  .
 		cin >> limit;
     {
         float celsius = (5.0/9.0) * (fahr - 32.0);
